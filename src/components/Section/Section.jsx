@@ -1,6 +1,6 @@
 import { Container, Title } from "./Section.styled";
 
-const Section = ({title, children}) => {
+export const Section = ({ title, children }) => {
     return (
         <Container>
             <Title>
@@ -11,6 +11,3 @@ const Section = ({title, children}) => {
         </Container>
     );
 };
-
-
-export default Section;
